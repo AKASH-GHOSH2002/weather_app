@@ -16,7 +16,7 @@ let target = "Kolkata";
 // Function to fetch Data from Weather API
 const fetchData = async (target) => {
   try {
-    const url = `http://api.weatherapi.com/v1/current.json?key=657ed39ef5c64cb5a28101750240404&q=${target}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=5b27a6ef3547402582e62007222306&q=${target}`;
     const response = await fetch(url);
     const data = await response.json();
 
